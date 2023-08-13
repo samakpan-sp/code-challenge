@@ -1,0 +1,69 @@
+/* Styles for both programs */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#mainContent{
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    color:#55559b;
+    text-decoration: underline;
+}
+
+p{
+    margin:20px 10px;
+}
+
+#calculateButton{
+    border: 2px solid #0d0c0c;
+    border-radius: 10px;
+    background-color: #55559b;
+    color: #ffffff;
+    padding: 5px;
+}
+
+.shape {
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: #3498db;
+    position: absolute;
+    animation: bounceMove 3s infinite;
+}
+
+@keyframes bounceMove {
+    0%, 100% {
+        transform: translate(0, 0);
+        background-color: #3498db;
+    }
+    25% {
+        transform: translate(0, -50px);
+        background-color: #e74c3c;
+        margin-top: 10%;
+        border-radius: 50%;
+    }
+    50% {
+        transform: translate(100px, -50px);
+        background-color: #2ecc71;
+    }
+    75% {
+        transform: translate(100px, 0);
+        margin-left: 61%;
+        background-color: #f39c12;
+        width: 20px;
+        height: 30px;
+        border: 1px dotted red;
+        margin-top: -4.2%;
+       border-style: groove;
+        border-radius: 100%;
+    }
+}
+  
+

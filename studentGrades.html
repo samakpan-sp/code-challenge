@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Grade Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main id="mainContent">
+        <h1>Challenge 1: Student Grade Generator (Toy Problem)</h1>
+        <p>This program takes student marks and outputs a corresponding grade!</p>
+        <p>Enter your mark below, between 0 - 100.</p>
+    
+        <form id="gradeForm">
+            <label for="marks">Enter student marks: </label>
+            <input type="number" id="marks" name="marks" min="0" max="100">
+            <button type="button" id="calculateButton">See Grade</button>
+        </form>
+        <p id="gradeOutput"></p>
+  
+    </main>
+    <div class="shape"></div>
+
+    <script src="grade_generator.js"></script>
+    
+</body>
+</html>
