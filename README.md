@@ -20,6 +20,9 @@ The Speed Detector program calculates demerit points for a car's speed violation
 2. Enter the car's speed in km/h and click the "See Points" button.
 3. The program will display the calculated demerit points or violation message.
 
+## Github link
+github link:https://github.com/samakpan-sp/code-challenge/tree/feature
+
 ## Student Grade Generator Program
 
 ### Description
